@@ -1,5 +1,5 @@
 {
-  "name": "mandy2000",
+  "name": "profile2026",
   "version": "1.0.0",
   "private": true,
   "engines": {
@@ -11,7 +11,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "deploy": "npm run generate && gh-pages -d .output/public"
   },
   "devDependencies": {
     "@nuxt/image-edge": "^1.0.0-27919678.2f5b64b",
@@ -24,6 +24,7 @@
     "@vueuse/core": "^9.13.0",
     "@vueuse/nuxt": "^9.13.0",
     "autoprefixer": "^10.4.13",
+    "gh-pages": "^6.3.0",
     "nuxt": "^3.3.2",
     "nuxt-schema-org": "^2.1.2",
     "nuxt-simple-sitemap": "^2.2.0",

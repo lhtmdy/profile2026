@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    ssr: false,
     app: {
+        baseURL: "/profile2026/",
+        buildAssetsDir: '/_nuxt/',
         head: {
             meta: [
                 { charset: "utf-8" },
@@ -19,7 +22,7 @@ export default defineNuxtConfig({
                 {
                     rel: "icon",
                     type: "image/png",
-                    href: "https://mandy2000.com/mandy_logo.png",
+                    // href: "https://mandy2000.com/mandy_logo.png",
                 },
                 {
                     rel: "icon",
@@ -94,6 +97,9 @@ export default defineNuxtConfig({
                 },
             ],
         },
+    },
+    generate: {
+        fallback: '404.html'
     },
     modules: [
         // doc: https://vueuse.org/guide/
