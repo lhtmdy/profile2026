@@ -1,0 +1,4 @@
+const t=`<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">\r
+<path d="M210 209.5C210 99.3192 120.681 10 10.5 10" stroke="currentColor" stroke-width="20" stroke-linecap="round"/>\r
+</svg>\r
+`;export{t as default};
