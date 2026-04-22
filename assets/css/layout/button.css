@@ -1,0 +1,142 @@
+@layer components {
+.btn {
+    @apply flex w-fit items-center rounded-full transition duration-200;
+}
+.btn-primary {
+    &--lg,
+    &--md,
+    &--sm {
+        @apply btn gap-1;
+    }
+    &--lg {
+        @apply text-p-d;
+        .i {
+            @apply text-[20px];
+        }
+    }
+    &--md {
+        @apply text-p-d;
+        .i {
+            @apply text-[18px];
+        }
+        span:only-child {
+            @apply px-2;
+        }
+    }
+    &--sm {
+        @apply text-p-d;
+        .i {
+            @apply text-[16px];
+        }
+    }
+}
+.btn-primary {
+    &--lg,
+    &--md,
+    &--sm {
+        @apply bg-primary-02 text-[white];
+        @media (hover: hover) {
+            &:hover {
+                @apply bg-primary-01;
+            }
+        }
+        &:active,
+        &.--active {
+            @apply bg-primary-01;
+        }
+    }
+    &--lg {
+        @apply py-[13px] px-6;
+    }
+    &--md {
+        @apply py-2.5 px-6;
+    }
+    &--sm {
+        @apply py-1.5 px-4;
+    }
+}
+.btn-i {
+    &-primary, &-secondary {
+        &--lg,
+        &--md,
+        &--sm {
+            @apply w-fit rounded-full;
+        }
+        &--lg {
+            .i {
+                @apply text-[22px];
+            }
+        }
+        &--md {
+            .i {
+                @apply text-[20px];
+            }
+        }
+        &--sm {
+            .i {
+                @apply text-[16px];
+            }
+        }
+    }
+    &-primary {
+        &--lg,
+        &--md,
+        &--sm {
+            @apply text-[white] relative;
+            &::after{
+                content: '';
+                @apply absolute block rounded-full bg-primary-01 w-[0%] h-[0%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-[1s];
+            } 
+            &:hover{
+                &::after{
+                content: '';
+                @apply  w-[110%] h-[110%] transition-[1s] z-[0];
+            } 
+        }
+        }
+        &--lg {
+            @apply p-[14px];
+        }
+        &--md {
+            @apply p-2.5;
+        }
+        &--sm {
+            @apply p-2;
+        }
+    }
+    &-secondary {
+        &--lg,
+        &--md,
+        &--sm {
+            @apply text-[white] relative;
+            &::after{
+                content: '';
+                @apply absolute block rounded-full bg-primary-03 w-[0%] h-[0%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-[1s];
+            } 
+            &:hover{
+                &::after{
+                content: '';
+                @apply  w-[110%] h-[110%] transition-[1s] z-[0];
+            } 
+        }
+        }
+        &--lg {
+            @apply p-[14px];
+        }
+        &--md {
+            @apply p-2.5;
+        }
+        &--sm {
+            @apply p-2;
+        }
+    }
+    &-primary, &-secondary {
+        &--lg,
+        &--md,
+        &--sm {
+            @apply bg-primary-02;
+        }
+    }
+  
+}
+}
