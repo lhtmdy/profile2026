@@ -3,7 +3,8 @@ export default defineNuxtConfig({
     ssr: false,
     app: {
         baseURL: "/profile2026/",
-        buildAssetsDir: '/_nuxt/',
+        // buildAssetsDir: '/_nuxt/',
+         buildAssetsDir: '/static/',
         head: {
             meta: [
                 { charset: "utf-8" },
