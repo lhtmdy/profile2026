@@ -12,7 +12,7 @@
                     </div>
                     <p v-if="!info?.url"
                         class="bg-primary-02 w-fit px-3 py-1 text-center text-[14px] absolute left-0 top-0 -translate-y-1/2  text-primary-03">
-                        即將上架</p>
+                        內部系統</p>
                     <div class="grow min-h-fit h-full  scroll-bar pr-2 overflow-y-auto">
                         <p class="mb-4 text-p2 md:text-p2-d">{{ info?.description }}</p>
                         <div class="flex items-center flex-wrap">
