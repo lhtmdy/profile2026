@@ -8,5 +8,6 @@
     </div>
 </template>
 <script setup>
-    const skillsArr = ref(['html','css','javascript','rwd','vue','nuxt','react','pinia','cicd','tailwindcss','sass','bootstrap','php','mysql','jquery','git','github','sourcetree','bitbucket','gulp','webpack','postman','python','figma']);
+    const skillsArr = ref(['html','css','javascript','vue','nuxt','react','pinia','cicd','tailwindcss','sass','bootstrap','naive_ui','php','mysql','jquery','git','github','bitbucket','gitlab','postman',
+    'swagger','python','java','figma']);
 </script>

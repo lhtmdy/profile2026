@@ -18,7 +18,7 @@
                 <h1 class=" mb-3 md:mb-0 text-center md:text-left">李欣恬<span class="text-h3 md:text-h3-d"> Mandy</span></h1>
                 <h2 class="text-primary-01 mb-5  text-center md:text-left">前端工程師</h2>
                 <div class="flex items-center flex-wrap w-fit mx-auto md:w-full">
-                    <a href="mailto:lhtmdy@gmail.comm" target="_blank"  class="custom-btn rounded-full bg-primary-02 w-[130px] py-[5px] md:py-[8px] text-primary-03 relative mr-3 hover:bg-primary-01">
+                    <a href="mailto:lhtmdy@gmail.com" target="_blank"  class="custom-btn rounded-full bg-primary-02 w-[130px] py-[5px] md:py-[8px] text-primary-03 relative mr-3 hover:bg-primary-01">
                         <span class="icon">
                             <NuxtIcon name="arr-right" class="text-primary-03 text-center block w-fit mx-auto" />
                         </span>
