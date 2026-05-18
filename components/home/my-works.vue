@@ -65,6 +65,14 @@ const works_info = ref([
         skill: ['Vue.js',  'Tailwind.css']
     },
     {
+        id: 'hopewell',
+        title: 'Hopewell Cluster',
+        image: '/image/works/hopewell.png',
+        url: 'https://www.hopewellcluster.com/',
+        description: '本網站客戶為合和實業有限公司，為購物商場網站，呈現店家及活動內容為主。',
+        skill: ['Vue.js', 'Nuxt3', 'Tailwind.css']
+    },
+    {
         id: 'airside',
         title: 'Airside',
         image: '/profile2026/image/works/airside_logo.png',
